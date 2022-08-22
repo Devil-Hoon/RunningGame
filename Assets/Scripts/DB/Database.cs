@@ -16,7 +16,7 @@ public static class Database
 	public static List<int> item = new List<int>();
 	public static Dictionary<int, Dictionary<string, string>> itemData = new Dictionary<int, Dictionary<string, string>>();
 
-	private static string sqlConnect = "Server=konggames.co.kr;uid=konggames;pwd=tkfkdgody!39;database=running_game;charset=utf8;TlsVersion=Tlsv1.2;";
+	private static string sqlConnect = "Server=server;uid=uid;pwd=password;database=database;charset=utf8;TlsVersion=Tlsv1.2;";
 
 	private static MySqlConnection conn = null;
 	private static MySqlCommand cmd = null;
@@ -29,7 +29,7 @@ public static class Database
 		string id = id_input;
 		string password = password_input;
 		string passwordHash = passwordEncryption(id + password);
-		string sqlConnect = "Server=konggames.co.kr;uid=konggames;pwd=tkfkdgody!39;database=running_game;charset=utf8;TlsVersion=Tlsv1.2;";
+		string sqlConnect = "Server=server;uid=uid;pwd=password;database=database;charset=utf8;TlsVersion=Tlsv1.2;";
 
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
@@ -143,7 +143,7 @@ public static class Database
 			return true;
 		}
 
-		string sqlConnect = "Server=konggames.co.kr;uid=konggames;pwd=tkfkdgody!39;database=running_game;charset=utf8;TlsVersion=Tlsv1.2;";
+		string sqlConnect = "Server=server;uid=uid;pwd=password;database=database;charset=utf8;TlsVersion=Tlsv1.2;";
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
@@ -169,7 +169,7 @@ public static class Database
 	public static void LoadGP()
 	{
 		string id = userID;
-		string sqlConnect = "Server=konggames.co.kr;uid=konggames;pwd=tkfkdgody!39;database=running_game;charset=utf8;TlsVersion=Tlsv1.2;";
+		string sqlConnect = "Server=server;uid=uid;pwd=password;database=database;charset=utf8;TlsVersion=Tlsv1.2;";
 
 		MySqlConnection conn = new MySqlConnection(sqlConnect);
 		if (conn.State != System.Data.ConnectionState.Closed)
