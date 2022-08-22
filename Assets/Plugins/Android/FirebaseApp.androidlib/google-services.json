@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "2852328108",
+    "project_id": "runninggame-7ad7c",
+    "firebase_url": "https://runninggame-7ad7c-default-rtdb.firebaseio.com/",
+    "storage_bucket": "runninggame-7ad7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2852328108:android:ac06c6c00d4e212ff48509",
+        "android_client_info": {
+          "package_name": "com.konggames.RunningGame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSoKXraQhFVbdpV6cz1c-ZaL-7kx_eU34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2852328108-rdulabbc81qkfi3a27sugicu0c9tcmc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

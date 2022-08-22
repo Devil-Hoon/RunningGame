@@ -1,0 +1,9 @@
+id,name,time,jump,speed,contents,option,value1,value2,value3,경로,경로2,descrition
+0,요정날개,10.0,0,0,back,0,,,,Item/newItem/item-04,Item/boxItem/boxitem-01,10초동안 무적
+1,강력한투구,5.0,0,0,head,3,,,,Item/newItem/item-03,Item/boxItem/boxitem-02,5초동안 무적
+2,의사가운,10.0,0,0,clothes,3,0.5,,,Item/newItem/item-06,Item/boxItem/boxitem-03,10초동안 hp가 천천히 줄어듬
+3,스프링발,5.0,0.5,0,shoes,1,0.5,,,Item/newItem/item-08,Item/boxItem/boxitem-05,5초동안 0.5더 높이 점프
+4,번개옷,10.0,0,10,clothes,2,10,,,Item/newItem/item-07,Item/boxItem/boxitem-06,10초동안 +10달리기속도증가
+5,토끼머리띠,5.0,0,5,head,2,5,,,Item/newItem/item-09,Item/boxItem/boxitem-04,5초동안 +5달리기속도증가
+6,거북이등껍질,10.0,0,-10,back,5,0.5,,,Item/newItem/item-01,Item/boxItem/boxitem-07,10초동안 -10달리기속도감소 쉴드증가
+7,황금날개,5.0,0,+5,back,2,5,,,Item/newItem/item-05,Item/boxItem/boxitem-08,5초동안 +5달리는속도증가

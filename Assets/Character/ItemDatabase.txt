@@ -1,0 +1,12 @@
+Head	head1	머리	1	FALSE	0
+Wing	wing1	날개	1	FALSE	1 
+Shoes	shoes1	신발	1	FALSE	2
+Balloon	RedBalloon	빨간풍선	1	FALSE	3
+Balloon	GreenBalloon	초록풍선	1	FALSE	4
+Balloon	BlueBalloon	파란풍선	1	FALSE	5
+A	AA	에이	1	FALSE	6
+A	AAA	에잇	1	FALSE	7
+A	AAAA	에이잇	1	FALSE	8
+D	DD	디	1	FALSE	9
+D	DDD	디디디	1	FALSE	10
+D	DDDD	디디디디	1	FALSE	11
